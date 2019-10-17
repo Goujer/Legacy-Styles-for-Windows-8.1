@@ -14,11 +14,16 @@ Put the contents of the folder containing the style/theme you want into your C:\
  
 ## Additional Remarks
 **You are at fault for any issues this may cause to your computer. It is reccomended that a system restore point is made and that you have recovery media avaliable.**
+
 If you are interested in transparency on any of these themes, check out [AeroGlass](http://www.glass8.eu/)
+
 This would not be possible without nptr's (msstyleEditor)[https://github.com/nptr/msstyleEditor], please send him a thank you if you enjoy this.
 
 ## Contributions
 Not everything can be ported, so some features may be missing.
+
 That said if you spy something should definetly be changed create an issue for it.
+
 If you are more technically or graphically inclined and can make better upscales of some of the images or know how to get some missing parts in go ahead and make the changes and submit a pull request.
+
 PNG are named by both their index in Windows 8.1's msstyle and a sort of path like naming sceem; the indexes are prefered.
