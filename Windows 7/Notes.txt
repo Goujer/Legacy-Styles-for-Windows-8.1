@@ -1,0 +1,160 @@
+Unable to be put into Windows 8.1's theme as of right now:
+	AltTab
+	CommandModule
+	DWMWindow
+	Help::Rebar
+	InactiveBB::ToolBar.SPLITBUTTON
+	StartPanelComposited::StartPanelPriv
+	StartPanelCompositedBottom::StartPanelPriv
+	StartPanelPriv
+
+Improvised or missing at higher DPIs:
+	BB.Toolbar.SplitButtonDropdown
+	Button
+		RadioButton
+	CopyClose
+		COPYCLOSEBTN
+	Explorer::TreeView
+		HOTGLYPH
+	Menu
+		POPUPCHECK
+	Navigation
+		BACKBUTTON
+		FORWARDBUTTON
+		MENUBUTTON
+	Pause
+		PAUSEBUTTON
+	Scrollbar
+		ARROWBTN
+		GRIPPERHORZ
+		GRIPPERVERT
+		SIZEBOX
+	SearchBox
+		CLEARBUTTON
+		SEARCHBUTTON
+	Spin
+		UP
+		DOWN
+		UPHORZ
+		DOWNHORZ
+	TaskbandExtendedUI
+		CLOSEBUTTON
+	TaskDialog
+		EXPANDOBUTTON
+	TextSelectionGripper
+	TrackBar
+		THUMBBOTTOM
+	TrayNotifyHoriz::Button
+		Common Properties
+	TrayNotifyHorizOpen::Button
+		Common Properties
+	Anything related to the above two
+
+Not in Windows 7:
+	BarrierPage
+	ChartView
+	Desktop::ListView
+	ImmersiveStart::Menu
+	Static
+
+Using Windows 8 Developer Preview
+	DWMTouch
+		TEXTHANDLEBLACK	# Using Part 4
+		TEXTHANDLEWHITE	# Using Part 4
+	DWMPen
+		BARREL			# Using Part 4
+	TaskBand2Composited::TaskBand2
+	TaskBand2CompositedSmallIcons8::TaskBand2
+	TaskBand2CompositedSmallIconsVertical8::TaskBand2
+	TaskBand2CompositedVertical8::TaskBand2
+	TaskDialog
+		EXPANDOBUTTON
+			DISABLED states
+	TextSelectionGripper
+	TrayNotify::UserTile
+
+Using Windows 8 Release Preview
+	CopyClose
+		COPYCLOSEBTN
+	Pause
+		PAUSEBUTTON
+	SearchBox
+		CLEARBUTTON
+		SEARCHBUTTON
+	ShellStatusBarSeparator
+	TaskBarComposited::Rebar
+	TaskManager
+
+Notes:
+	DWMWindow.Part63/Frames.AeroPeek.Background
+		Needs fixing
+	White Text in Firefox Buttons
+
+Changes:
+AB::AddressBand
+	BACKGROUND
+		IMAGEFILE 			# Windows 7
+ABGreen::AddressBand
+	BACKROUND
+		Common
+			SIZINGMARGINS	# Not in Windows 7
+		IMAGEFILE			# Windows 7
+ABRed::AddressBand
+	BACKROUND
+		Common
+			SIZINGMARGINS	# Not in Windows 7
+		IMAGEFILE			# Windows 7
+ABYellow::AddressBand
+	BACKROUND
+		Common
+			SIZINGMARGINS	# Not in Windows 7
+		IMAGEFILE			# Windows 7
+Address::ComboBox
+	DROPDOWNBUTTON
+		IMAGEFILE			# Windows 7
+AeroWizard
+	TITLEBAR
+		Common
+			GLOWINTENSITY	# Windows 7 (250)
+			TEXTCOLOR		# Not in Windows 7 set to (40, 40, 40) Test Delete
+		INACTIVE
+			TEXTCOLOR		# Not in Windows 7 set to (40, 40, 40) Test Delete
+		IMAGEFILE			# Windows 7
+		IMAGEFILE			# Windows 7
+	HEADERAREA				# Windows(7/8.1)
+	CONTENTAREA				# Windows(7/8.1)
+	COMMANDAREA
+		IMAGEFILE			# Windows 7
+AeroWizardStyle
+	HEADERAREA				# Windows (7/8.1)
+	CONTENTAREA				# Windows (7/8.1)
+Alternate::Toolbar
+	Common Properties		# Windows (7/8.1)
+Button
+	PUSHBUTTON				# Windows (7/8.1)
+		IMAGEFILE			# Windows 7
+ChartView					# Windows 8.1 (Not in 7)
+Communications::ComboBox
+	READONLY				# Windows (7/8.1)
+Communications::Menu
+	BARITEM					# Windows (7/8.1)
+Communications::Toolbar
+	Common Properties		# Windows (7/8.1)
+ControlPanel
+	CONTENTPANEL			# Windows (7/8.1)
+ControlPanelStyle
+	CONTENTPANEL			# Windows (7/8.1)
+	SMALLCOMMANDAREA		# Windows (7/8.1)
+DatePicker
+	Common Properties		# Windows (7/8.1)
+	DATETEXT				# Windows (7/8.1)
+DatePickerStyle
+	SHOWCALENDARBUTTONRIGHT	# Windows (7/8.1)
+DragDrop
+	TEXTBG					# Windows (7/8.1)
+DragDropStyle				# Windows (7/8.1)
+
+InactiveBB::ToolBar
+	Common Properties
+		Common
+			TEXTCOLOR		# Windows 7 (67,78,84)
