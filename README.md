@@ -15,9 +15,9 @@ Put the contents of the folder containing the style/theme you want into your C:\
 ## Additional Remarks
 **You are at fault for any issues this may cause to your computer. It is recommended that a system restore point is made and that you have recovery media avaliable.**
 
-If you are interested in transparency on any of these themes, check out [AeroGlass](http://www.glass8.eu/) .
+If you are interested in transparency on any of these themes, check out [AeroGlass](http://www.glass8.eu/).
 
-This would not be possible without nptr's (msstyleEditor)[https://github.com/nptr/msstyleEditor] , please send him a thank you if you enjoy this.
+This would not be possible without nptr's [msstyleEditor](https://github.com/nptr/msstyleEditor), please send him a thank you if you enjoy this.
 
 ## Contributions
 Not everything can be ported, so some features may be missing.
