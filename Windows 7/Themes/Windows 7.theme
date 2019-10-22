@@ -22,22 +22,43 @@ DefaultValue=%SystemRoot%\System32\imageres.dll,-25
 Full=%SystemRoot%\System32\imageres.dll,-54
 Empty=%SystemRoot%\System32\imageres.dll,-55
 
+;These don't seem to work but they don't exactly break anything
+; Default Programs
+[CLSID\{17cd9488-1228-4b2f-88ce-4298e93e0966}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup24.ico
+[CLSID\{2559a1f7-21d7-11d4-bdaf-00c04f60b9f0}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup24.ico
+[CLSID\{E44E5D18-0652-4508-A4E2-8A090067BCB0}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup24.ico
+
+; Taskbar
+[CLSID\{0DF44EAA-FF21-4412-828E-260A8728E7F1}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup80.ico
+
+; Help
+[CLSID\{2559a1f1-21d7-11d4-bdaf-00c04f60b9f0}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup99.ico
+
+; Desktop
+[CLSID\{9E56BE61-C50F-11CF-9A2C-00A0C90A90CE}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup110.ico
+
 [Control Panel\Cursors]
-AppStarting=%ResourceDir%\Themes\Windows 7\cursors\aero_working.ani
-Arrow=%ResourceDir%\Themes\Windows 7\cursors\aero_arrow.cur
+AppStarting=%ResourceDir%\Themes\Windows 7\Cursors\aero_working.ani
+Arrow=%ResourceDir%\Themes\Windows 7\Cursors\aero_arrow.cur
 Crosshair=
-Hand=%ResourceDir%\Themes\Windows 7\cursors\aero_link.cur
-Help=%ResourceDir%\Themes\Windows 7\cursors\aero_helpsel.cur
+Hand=%ResourceDir%\Themes\Windows 7\Cursors\aero_link.cur
+Help=%ResourceDir%\Themes\Windows 7\Cursors\aero_helpsel.cur
 IBeam=
-No=%ResourceDir%\Themes\Windows 7\cursors\aero_unavail.cur
-NWPen=%ResourceDir%\Themes\Windows 7\cursors\aero_pen.cur
-SizeAll=%ResourceDir%\Themes\Windows 7\cursors\aero_move.cur
-SizeNESW=%ResourceDir%\Themes\Windows 7\cursors\aero_nesw.cur
-SizeNS=%ResourceDir%\Themes\Windows 7\cursors\aero_ns.cur
-SizeNWSE=%ResourceDir%\Themes\Windows 7\cursors\aero_nwse.cur
-SizeWE=%ResourceDir%\Themes\Windows 7\cursors\aero_ew.cur
-UpArrow=%ResourceDir%\Themes\Windows 7\cursors\aero_up.cur
-Wait=%ResourceDir%\Themes\Windows 7\cursors\aero_busy.ani
+No=%ResourceDir%\Themes\Windows 7\Cursors\aero_unavail.cur
+NWPen=%ResourceDir%\Themes\Windows 7\Cursors\aero_pen.cur
+SizeAll=%ResourceDir%\Themes\Windows 7\Cursors\aero_move.cur
+SizeNESW=%ResourceDir%\Themes\Windows 7\Cursors\aero_nesw.cur
+SizeNS=%ResourceDir%\Themes\Windows 7\Cursors\aero_ns.cur
+SizeNWSE=%ResourceDir%\Themes\Windows 7\Cursors\aero_nwse.cur
+SizeWE=%ResourceDir%\Themes\Windows 7\Cursors\aero_ew.cur
+UpArrow=%ResourceDir%\Themes\Windows 7\Cursors\aero_up.cur
+Wait=%ResourceDir%\Themes\Windows 7\Cursors\aero_busy.ani
 DefaultValue=Windows Aero
 DefaultValue.MUI=@main.cpl,-1020
 
@@ -61,4 +82,42 @@ MTSM=RJSPBS
 
 [Sounds]
 ; IDS_SCHEME_DEFAULT
-SchemeName=@%SystemRoot%\System32\mmres.dll,-800
+SchemeName=Windows 7
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SystemRoot%\media\Windows Ding.wav
+
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%SystemRoot%\media\Windows Battery Critical.wav
+
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SystemRoot%\Resources\Themes\Windows 7\Sounds\Windows Hardware Insert.wav
+
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SystemRoot%\Resources\Themes\Windows 7\Sounds\Windows Hardware Remove.wav
+
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%SystemRoot%\Resources\Themes\Windows 7\Sounds\Windows Hardware Fail.wav
+
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=%SystemRoot%\media\Windows Notify.wav
+
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%SystemRoot%\media\Windows Battery Low.wav
+
+[AppEvents\Schemes\Apps\.Default\Notification.Mail]
+DefaultValue=%SystemRoot%\media\Windows Notify.wav
+
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SystemRoot%\media\Windows Error.wav
+
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SystemRoot%\media\Windows Exclamation.wav
+
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SystemRoot%\media\Windows Critical Stop.wav
+
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%SystemRoot%\media\Windows Balloon.wav
+
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=%SystemRoot%\Resources\Themes\Windows 7\Sounds\Windows User Account Control.wav
