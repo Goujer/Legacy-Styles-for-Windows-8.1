@@ -1,0 +1,102 @@
+Next is Combobox dropdownleft
+
+Unable to be put completely into Windows 8.1 as of right now:
+	AltTab
+	CommandModule/LIBRARYPANEIDENTIFIER
+	CommandModule/LIBRARYPANEOVERLAY
+	DWMWindow
+	Help::Rebar
+	InactiveBB::ToolBar.SPLITBUTTON
+	StartPanelComposited::StartPanelPriv
+	StartPanelCompositedBottom::StartPanelPriv
+	StartPanelPriv
+
+Improvised or missing at higher DPIs:
+	BB.Toolbar.SplitButtonDropdown
+	Button
+		RadioButton
+	CopyClose
+		COPYCLOSEBTN
+	Explorer::TreeView
+		HOTGLYPH
+	Menu
+		POPUPCHECK
+	Navigation
+		BACKBUTTON
+		FORWARDBUTTON
+		MENUBUTTON
+	Pause
+		PAUSEBUTTON
+	Scrollbar
+		ARROWBTN
+		GRIPPERHORZ
+		GRIPPERVERT
+		SIZEBOX
+	SearchBox
+		CLEARBUTTON
+		SEARCHBUTTON
+	Spin
+		UP
+		DOWN
+		UPHORZ
+		DOWNHORZ
+	TaskbandExtendedUI
+		CLOSEBUTTON
+	TaskDialog
+		EXPANDOBUTTON
+	TextSelectionGripper
+	TrackBar
+		THUMBBOTTOM
+	TrayNotifyHoriz::Button
+		Common Properties
+	TrayNotifyHorizOpen::Button
+		Common Properties
+	Anything related to the above two
+	
+Using Windows 7
+	BasicMenuMode::TaskbandExtendedUI
+
+Using Windows 8 Developer Preview
+	CopyClose # Uses Release Preview's IMAGEFILES but style is identical.
+	DWMTouch
+		TEXTHANDLEBLACK	# Using Part 4
+		TEXTHANDLEWHITE	# Using Part 4
+	DWMPen
+		BARREL			# Using Part 4
+	Static
+	TaskBand2Composited::TaskBand2
+	TaskBand2CompositedSmallIcons8::TaskBand2
+	TaskBand2CompositedSmallIconsVertical8::TaskBand2
+	TaskBand2CompositedVertical8::TaskBand2
+	TaskDialog
+		EXPANDOBUTTON
+			DISABLED states
+	TextSelectionGripper
+	TrayNotify::UserTile
+
+Using Windows 8 Release Preview
+	AeroWizard
+		TITLEBAR
+			Common
+				TEXTCOLOR
+			INACTIVE
+				TEXTCOLOR
+	BarrierPage
+	ChartView
+	Pause
+		PAUSEBUTTON
+	SearchBox
+		CLEARBUTTON
+		SEARCHBUTTON
+	ShellStatusBarSeparator
+	TaskBarComposited::Rebar
+	TaskManager
+	
+Using Windows 8.1:
+	Desktop::ListView
+	ImmersiveStart::Menu
+
+Notes:
+	DWMWindow.Part63/Frames.AeroPeek.Background
+		Is using Windows 7's REFLECTIONS
+	Windows 8 Developer Preview's ChartView might be mapped wrong.

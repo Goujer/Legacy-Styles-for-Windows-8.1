@@ -25,11 +25,11 @@ Empty=%SystemRoot%\System32\imageres.dll,-55
 ;These don't seem to work but they don't exactly break anything
 ; Default Programs
 [CLSID\{17cd9488-1228-4b2f-88ce-4298e93e0966}\DefaultIcon]
-DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup24.ico
+DefaultValue=%ResourceDir%\Themes\Common\V-7\Icons\IconGroup24.ico
 [CLSID\{2559a1f7-21d7-11d4-bdaf-00c04f60b9f0}\DefaultIcon]
-DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup24.ico
+DefaultValue=%ResourceDir%\Themes\Common\V-7\Icons\IconGroup24.ico
 [CLSID\{E44E5D18-0652-4508-A4E2-8A090067BCB0}\DefaultIcon]
-DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup24.ico
+DefaultValue=%ResourceDir%\Themes\Common\V-7\Icons\IconGroup24.ico
 
 ; Taskbar
 [CLSID\{0DF44EAA-FF21-4412-828E-260A8728E7F1}\DefaultIcon]
@@ -37,11 +37,11 @@ DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup80.ico
 
 ; Help
 [CLSID\{2559a1f1-21d7-11d4-bdaf-00c04f60b9f0}\DefaultIcon]
-DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup99.ico
+DefaultValue=%ResourceDir%\Themes\Common\V-7\Icons\IconGroup99.ico
 
 ; Desktop
 [CLSID\{9E56BE61-C50F-11CF-9A2C-00A0C90A90CE}\DefaultIcon]
-DefaultValue=%ResourceDir%\Themes\Windows 7\Icons\IconGroup110.ico
+DefaultValue=%ResourceDir%\Themes\Common\V-7\Icons\IconGroup110.ico
 
 [Control Panel\Cursors]
 AppStarting=%ResourceDir%\Themes\Windows 7\Cursors\aero_working.ani
@@ -69,7 +69,7 @@ WallpaperStyle=10
 Pattern=
 
 [VisualStyles]
-Path=%ResourceDir%\Themes\Windows 7\Windows 7.msstyles
+Path=%ResourceDir%\Themes\Windows 7\aero.msstyles
 ColorStyle=NormalColor
 Size=NormalSize
 AutoColorization=1
@@ -82,7 +82,7 @@ MTSM=RJSPBS
 
 [Sounds]
 ; IDS_SCHEME_DEFAULT
-SchemeName=Windows 7
+SchemeName=Windows Vista/7
 [AppEvents\Schemes\Apps\.Default\.Default]
 DefaultValue=%SystemRoot%\media\Windows Ding.wav
 
@@ -90,13 +90,13 @@ DefaultValue=%SystemRoot%\media\Windows Ding.wav
 DefaultValue=%SystemRoot%\media\Windows Battery Critical.wav
 
 [AppEvents\Schemes\Apps\.Default\DeviceConnect]
-DefaultValue=%SystemRoot%\Resources\Themes\Windows 7\Sounds\Windows Hardware Insert.wav
+DefaultValue=%SystemRoot%\Resources\Themes\Common\V-7\Sounds\Windows Hardware Insert.wav
 
 [AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
-DefaultValue=%SystemRoot%\Resources\Themes\Windows 7\Sounds\Windows Hardware Remove.wav
+DefaultValue=%SystemRoot%\Resources\Themes\Common\V-7\Sounds\Windows Hardware Remove.wav
 
 [AppEvents\Schemes\Apps\.Default\DeviceFail]
-DefaultValue=%SystemRoot%\Resources\Themes\Windows 7\Sounds\Windows Hardware Fail.wav
+DefaultValue=%SystemRoot%\Resources\Themes\Common\V-7\Sounds\Windows Hardware Fail.wav
 
 [AppEvents\Schemes\Apps\.Default\FaxBeep]
 DefaultValue=%SystemRoot%\media\Windows Notify.wav
@@ -120,4 +120,4 @@ DefaultValue=%SystemRoot%\media\Windows Critical Stop.wav
 DefaultValue=%SystemRoot%\media\Windows Balloon.wav
 
 [AppEvents\Schemes\Apps\.Default\WindowsUAC]
-DefaultValue=%SystemRoot%\Resources\Themes\Windows 7\Sounds\Windows User Account Control.wav
+DefaultValue=%SystemRoot%\Resources\Themes\Common\V-7\Sounds\Windows User Account Control.wav

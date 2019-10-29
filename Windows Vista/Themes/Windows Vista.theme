@@ -1,0 +1,126 @@
+; Copyright © Microsoft Corp. 1995-2001
+
+[Theme]
+DisplayName=Windows Vista
+
+; My Computer
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-109
+
+; My Documents
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-123
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-25
+
+; My Network Places - SHIDI_MYNETWORK
+[CLSID\{208D2C60-3AEA-1069-A2D7-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\SYSTEM32\imageres.dll,-25
+
+; Recycle Bin
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\System32\imageres.dll,-54
+Empty=%SystemRoot%\System32\imageres.dll,-55
+
+;These don't seem to work but they don't exactly break anything
+; Default Programs
+[CLSID\{17cd9488-1228-4b2f-88ce-4298e93e0966}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Common\V-7\Icons\IconGroup24.ico
+[CLSID\{2559a1f7-21d7-11d4-bdaf-00c04f60b9f0}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Common\V-7\Icons\IconGroup24.ico
+[CLSID\{E44E5D18-0652-4508-A4E2-8A090067BCB0}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Common\V-7\Icons\IconGroup24.ico
+
+; Taskbar
+[CLSID\{0DF44EAA-FF21-4412-828E-260A8728E7F1}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Windows Vista\Icons\IconGroup80.ico
+
+; Help
+[CLSID\{2559a1f1-21d7-11d4-bdaf-00c04f60b9f0}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Common\V-7\Icons\IconGroup99.ico
+
+; Desktop
+[CLSID\{9E56BE61-C50F-11CF-9A2C-00A0C90A90CE}\DefaultIcon]
+DefaultValue=%ResourceDir%\Themes\Common\V-7\Icons\IconGroup110.ico
+
+[Control Panel\Cursors]
+AppStarting=%ResourceDir%\Themes\Windows Vista\Cursors\aero_working.ani
+Arrow=%ResourceDir%\Themes\Windows Vista\Cursors\aero_arrow.cur
+Crosshair=
+Hand=%ResourceDir%\Themes\Windows Vista\Cursors\aero_link.cur
+Help=%ResourceDir%\Themes\Windows Vista\Cursors\aero_helpsel.cur
+IBeam=
+No=%ResourceDir%\Themes\Windows Vista\Cursors\aero_unavail.cur
+NWPen=%ResourceDir%\Themes\Windows Vista\Cursors\aero_pen.cur
+SizeAll=%ResourceDir%\Themes\Windows Vista\Cursors\aero_move.cur
+SizeNESW=%ResourceDir%\Themes\Windows Vista\Cursors\aero_nesw.cur
+SizeNS=%ResourceDir%\Themes\Windows Vista\Cursors\aero_ns.cur
+SizeNWSE=%ResourceDir%\Themes\Windows Vista\Cursors\aero_nwse.cur
+SizeWE=%ResourceDir%\Themes\Windows Vista\Cursors\aero_ew.cur
+UpArrow=%ResourceDir%\Themes\Windows Vista\Cursors\aero_up.cur
+Wait=%ResourceDir%\Themes\Windows Vista\Cursors\aero_busy.ani
+DefaultValue=Windows Aero
+DefaultValue.MUI=@main.cpl,-1020
+
+[Control Panel\Desktop]
+Wallpaper=%ResourceDir%\Themes\Windows Vista\Wallpaper\img24.jpg
+TileWallpaper=0
+WallpaperStyle=2
+Pattern=
+ScreenSaveActive=1
+
+[VisualStyles]
+Path=%ResourceDir%\Themes\Windows Vista\aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+ColorizationColor=0x45409efe
+
+[boot]
+SCRNSAVE.EXE=%ResourceDir%\Themes\Windows Vista\Screen Savers\logon.scr
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Windows Vista/7
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SystemRoot%\media\Windows Ding.wav
+
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%SystemRoot%\media\Windows Battery Critical.wav
+
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SystemRoot%\Resources\Themes\Common\V-7\Sounds\Windows Hardware Insert.wav
+
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SystemRoot%\Resources\Themes\Common\V-7\Sounds\Windows Hardware Remove.wav
+
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%SystemRoot%\Resources\Themes\Common\V-7\Sounds\Windows Hardware Fail.wav
+
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=%SystemRoot%\media\Windows Notify.wav
+
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%SystemRoot%\media\Windows Battery Low.wav
+
+[AppEvents\Schemes\Apps\.Default\Notification.Mail]
+DefaultValue=%SystemRoot%\media\Windows Notify.wav
+
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SystemRoot%\media\Windows Error.wav
+
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SystemRoot%\media\Windows Exclamation.wav
+
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SystemRoot%\media\Windows Critical Stop.wav
+
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%SystemRoot%\media\Windows Balloon.wav
+
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=%SystemRoot%\Resources\Themes\Common\V-7\Sounds\Windows User Account Control.wav
