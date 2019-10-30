@@ -1,9 +1,13 @@
-Next is Combobox dropdownleft
+Next is DWMWindow
 
 Unable to be put completely into Windows 8.1 as of right now:
 	AltTab
-	CommandModule/LIBRARYPANEIDENTIFIER
-	CommandModule/LIBRARYPANEOVERLAY
+	CommandModule
+		LIBRARYPANEIDENTIFIER
+		LIBRARYPANEOVERLAY
+	CommonPlaces::MenuBand
+	CommonPlaces::Toolbar
+	
 	DWMWindow
 	Help::Rebar
 	InactiveBB::ToolBar.SPLITBUTTON
@@ -55,6 +59,22 @@ Improvised or missing at higher DPIs:
 	
 Using Windows 7
 	BasicMenuMode::TaskbandExtendedUI
+	CommandModule
+		MODULEBACKGROUNDCOLORS
+		TASKBUTTON
+			NORMAL
+			DISABLED
+		SPLITBUTTONLEFT
+			NORMAL
+			DISABLED
+		SPLITBUTTONRIGHT
+			NORMAL
+			DISABLED
+		LIBRARYPANETOPVIEW
+		LIBRARYPANEBACKGROUND
+	Composited::TrayNotifyFlyout
+	CPLCommandModule::CommandModule
+	DropListControl
 
 Using Windows 8 Developer Preview
 	CopyClose # Uses Release Preview's IMAGEFILES but style is identical.
